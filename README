@@ -1,0 +1,33 @@
+WP Presenter for Genesis
+=============================================================
+http://slide25.com
+
+Install
+=============================================================
+1. Upload the genesis-wp-presenter child theme folder via FTP to your wp-content/themes/ directory. (The Genesis parent theme needs to be in the wp-content/themes/ directory as well.)
+2. Go to your WordPress dashboard and select Appearance.
+3. Activate the WP Presenter for Genesis theme.
+4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
+
+Layout
+=============================================================
+WP Presenter is a unique theme in that it is built for presentations. The traditional "header", "body", "sidebar", "footer" layout is not here. Header has been pushed down into the footer on the far left side. There is no sidebar. The footer has 3 widget areas in it.
+
+Footer #1 - This is the first widget area of the footer section.
+Footer #2 - This is the second widget area of the footer section.
+Footer #3 - This is the third widget area of the footer section.
+
+There is a widget area on the homepage which allows you to write some introductory text. Below that is the wp_list_categories() function.
+
+Functionality
+=============================================================
+In short, Posts are slides and Categories are your means of grouping them into presentations. Create a slide, assign it a category. On the homepage, you can select your presentation by choosing a category. All slides load per category archive, regardless of what you've set in WordPress's settings for posts per page.
+
+Flexslider.js is used for smooth transitions from slide to slide. The left and right arrow keys can be used to move between slides. 
+
+Clicking onto a slide's title or comments link takes you to the single slide view. In the single slide view, there is a link to go back to the beginning of the presentation. 
+
+
+SUPPORT
+=============================================================
+Please visit http://slide25.com for support.
